@@ -28,3 +28,14 @@ button {
     stroke: grey;
     stroke-width: 1px;
 }
+
+.mean path {
+    stroke-dasharray: 3;
+    stroke: grey;
+    stroke-width: 1px;
+}
+
+.mean text {
+    font: 11px sans-serif;
+    fill: grey;
+}

@@ -41,6 +41,7 @@ class CountyMap extends Component {
                 ),
                 counties = topojson.feature(us, us.objects.counties).features;
 
+            //[{countyID : 1231, value: 1}, {countyID : 1234, value: 2}] => [[1231, 1], [1234, 2]] => [{1231: 1}, {1234: 2}]
             const countyValueMap = _.fromPairs(
                 this.props.values.map(d => [d.countyID, d.value])
             );

@@ -4,5 +4,9 @@
     "prettier.singleQuote": true,
     "terminal.integrated.cursorStyle": "line",
     "editor.parameterHints": false,
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": -0.5,
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    }
 }
