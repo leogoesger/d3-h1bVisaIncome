@@ -1,0 +1,8 @@
+{
+    "prettier.eslintIntegration": true,
+    "prettier.trailingComma": "es5",
+    "prettier.singleQuote": true,
+    "terminal.integrated.cursorStyle": "line",
+    "editor.parameterHints": false,
+    "editor.minimap.enabled": false
+}
