@@ -1,1 +1,1 @@
-export { default } from './MedianLine';
+export {default} from './MedianLine';
