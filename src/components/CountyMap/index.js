@@ -1,1 +1,1 @@
-export { default } from './CountyMap';
+export {default} from './CountyMap';

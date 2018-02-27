@@ -12,7 +12,7 @@ import Histogram from './components/Histogram';
 import {Title, Description, GraphDescription} from './components/Meta';
 import MedianLine from './components/MedianLine';
 
-// import Controls from './components/Controls';
+import Controls from './components/Controls';
 
 class App extends Component {
   state = {
@@ -151,13 +151,13 @@ class App extends Component {
           />
         </svg>
 
-        {/* <Controls
-                    data={this.state.techSalaries}
-                    updateDataFilter={this.updateDataFilter.bind(this)}
-                /> */}
+        <Controls
+          data={this.state.techSalaries}
+          updateDataFilter={this.updateDataFilter.bind(this)}
+        />
 
         <small>
-          Sources: 2014 US census data for median household incomes,{' '}
+          Sources: 2014 US census data for median household incomes,
           <a href="http://h1bdata.info/">h1bdata.info</a> for tech salaries
           (filtered by "software")
         </small>
